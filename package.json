@@ -1,0 +1,36 @@
+{
+	"name": "Untitled Zelda Game",
+	"version": "1.0.0",
+	"description": "A Phaser 3 game experiment.",
+	"scripts": {
+		"start": "vite --config config/vite.config.js",
+		"build": "tsc && vite build --config config/vite.config.js",
+		"serve": "vite preview --config config/vite.config.js",
+		"lint": "eslint ./src -c ./config/eslint.config.mjs"
+	},
+	"author": "Nathan Loding and Garry Hanton",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nloding/something.git"
+	},
+	"homepage": "https://github.com/nloding/something.git",
+	"devDependencies": {
+		"@devshareacademy/eslint-config": "0.1.1",
+		"@devshareacademy/prettier-config": "0.0.6",
+		"@devshareacademy/tsconfig": "0.0.3",
+		"@typescript-eslint/eslint-plugin": "8.50.1",
+		"@typescript-eslint/parser": "8.50.1",
+		"eslint": "9.39.2",
+		"eslint-config-prettier": "10.1.8",
+		"eslint-plugin-prettier": "5.5.4",
+		"prettier": "3.7.4",
+		"typescript": "5.9.3",
+		"vite": "7.3.0"
+	},
+	"dependencies": {
+		"phaser": "3.90.0"
+	},
+	"resolutions": {},
+	"prettier": "@devshareacademy/prettier-config"
+}
